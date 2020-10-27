@@ -49,8 +49,8 @@ int main()
 	// Memoria usada al comienzo de la ejecución
 	MemoryPool::PrintMemoryUsage();
 
-	// Creo un objeto de prueba
-	MemoryPool::Object* obj = new MemoryPool::Object;
+	// Creo un vector de prueba
+	MemoryPool::Vector3* v = new MemoryPool::Vector3;
 
 	// Memoria usada después de crear el objeto
 	MemoryPool::PrintMemoryUsage();
